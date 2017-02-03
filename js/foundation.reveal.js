@@ -149,6 +149,9 @@ class Reveal {
           e.preventDefault();
           _this.open();
         }
+      })
+      .on('click.zf.reveal', function(e){
+        e.preventDefault();
       });
     }
 
